@@ -28,7 +28,7 @@ jobs:
 
     - name: Build site
       run: |
-        mkdir build
+        mkdir -p build
         cp index.html build/
 
     - name: Upload Pages artifact
