@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,800|Ruda:400,700,800);
+
+.quiz {
+  display: inline-block;
+  color: white;
+  background: green;
+  border: 1px solid green;
+  border-radius: 4px;
+  padding: 0px 2px;
+  width: 22pt;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+html {
+  background: darkgray;
+}
+
+body {
+  font-family: 'Serif';
+  font-family: "Ruda", sans-serif;
+  margin: 4em;
+  background: white;
+  margin: 2em auto 2em auto;
+  padding: 4em 6em 4em 6em;
+  width: 45em;
+  min-height: 80em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+p, li {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+blockquote h2:first-child {
+  color: sienna;
+  margin-top: 1px;
+}
+
+blockquote p:not(:first-child) {
+    margin-top: 1em;
+}
+
+blockquote {
+  margin: 1em 0 1em 0;
+  border: 1px solid gray;
+  background: HoneyDew;
+  padding: 1em;
+  line-height: 1.6;
+  text-align: left;
+}
+
+code {
+    font-family: 'Ubuntu Mono';
+    background: #f0f0f0;
+    padding: 0 4px 2px 4px;
+    color: green;
+    border-radius: 3px;
+}
+
+pre {
+  background-color: #f0f0f0;
+  padding: 1em;
+}
+
+pre code {
+  padding-left: 0;
+}
+
+strong {
+  font-weight: 800;
+}

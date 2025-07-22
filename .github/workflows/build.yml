@@ -27,9 +27,7 @@ jobs:
       uses: actions/configure-pages@v3
 
     - name: Build site
-      run: |
-        mkdir -p build
-        cp index.html build/
+      run: make build
 
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v3
