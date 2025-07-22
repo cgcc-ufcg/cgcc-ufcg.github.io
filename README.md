@@ -1,3 +1,3 @@
-# teste gh pages
+# cgcc-ufcg.github.io
 
-Testando.
+Páginas da Intranet da CGCC UFCG
